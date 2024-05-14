@@ -10,10 +10,10 @@ public class Bank {
 
         int uniqueToken = 123456789;
         int menuBank = 0;
-        int userBalance = 14423;
+        int userBalance = 12423;
         int optionBank = 0;
 
-        for (int trys = 1; trys >= 1; trys--) {
+        for (int trys = 1; true; trys--) {
             System.out.println("You have " + trys + " tries");
             System.out.println("Enter your unique token: ");
             uniqueToken = in.nextInt();
